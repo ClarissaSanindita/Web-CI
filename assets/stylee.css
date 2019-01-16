@@ -1,0 +1,124 @@
+@font-face {
+src: url(ra.otf);
+font-family: ra;
+}
+
+@font-face {
+src: url(tata.ttf);
+font-family: tata;
+}
+
+@font-face {
+src: url(the.ttf);
+font-family: the;
+}
+
+@font-face {
+src: url(bu.ttf);
+font-family: bu;
+}
+
+@font-face {
+src: url(ta.otf);
+font-family: ta;
+}
+body{
+  background-color: #79BD8F;
+  /* background: linear-gradient(135deg, #3a6186 0%, #89253e 100%); */
+}
+
+header {
+overflow: hidden;
+margin: -8px;}
+
+nav {
+float: right;
+margin-right: 48px;
+}
+
+ul {
+float: right;
+list-style: none;
+margin: 14px;
+}
+
+li {
+width: 120px;
+text-align: center;
+padding: 40px 0;
+}
+
+ul li{
+display: inline-block;
+}
+
+ul li a{
+text-decoration: none;
+color: white;
+margin-top: 20px;
+margin-left: 50px;
+border: none;
+transition: 0.6s ease;
+font-family: tata;
+font-size: 20px;
+}
+
+ul li a:hover{
+color: #2D3826;
+border-radius: 20px;
+transition-duration: 0.5s;
+}
+
+.pertama{
+  background-color: black;
+  width: 100px;
+}
+
+
+#logo {
+width: 150px;
+float: left;
+height: auto;
+}
+
+.atas{
+max-width: 1200px;
+margin: auto;
+
+}
+
+
+  #logo img{
+    margin-top: 50px;
+    margin-left: 90px;
+    width: 200px;
+    height: 200px;
+  }
+
+
+  .tengah{
+    margin-top: -220px;
+    margin-left: 550px;
+    font-family: the;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+  }
+
+  .selamat{
+    color: white;
+    align: center;
+    text-align: left;
+    font-size: 60px;
+    margin-left: 50px;
+    font-family: bu;
+  }
+
+  p{
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-top: 200px;
+    font-family: tata;
+    font-size: 25px;
+    color: #00A388;
+  }

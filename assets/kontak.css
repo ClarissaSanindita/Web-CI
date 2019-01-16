@@ -1,0 +1,129 @@
+@font-face {
+src: url(tata.ttf);
+font-family: tata;
+}
+
+@font-face {
+src: url(ra.otf);
+font-family: ra;
+}
+
+@font-face {
+src: url(the.ttf);
+font-family: the;
+}
+
+@font-face {
+src: url(bu.ttf);
+font-family: bu;
+}
+
+@font-face {
+src: url(ta.otf);
+font-family: ta;
+}
+
+
+body{
+  background-color: #79BD8F;
+}
+
+
+header {
+overflow: hidden;
+margin: -8px;
+background-color: white;
+}
+
+
+nav {
+float: right;
+margin-right: 48px;
+}
+
+ul {
+float: right;
+list-style: none;
+margin: 14px;
+}
+
+li {
+width: 120px;
+text-align: center;
+padding: 40px 0;
+}
+
+ul li{
+display: inline-block;
+}
+
+ul li a{
+text-decoration: none;
+color: #79BD8F;
+margin-top: 20px;
+margin-left: -20px;
+border: none;
+transition: 0.6s ease;
+font-family: tata;
+font-size: 20px;
+}
+
+ul li a:hover{
+color: #2D3826;
+border-radius: 20px;
+transition-duration: 0.5s;
+}
+
+#logo img{
+margin-left:85px;
+margin-top: 20px;
+width: 90px;
+float: left;
+height: auto;
+}
+
+.nama{
+  font-family: the;
+  margin-top:30px;
+  margin-left: 210px;
+  position: absolute;
+}
+
+  body{
+    background-color: #79BD8F;
+  }
+
+  .ig img{
+    width: 200px;
+    margin-top: 190px;
+    margin-left: 110px;
+    position: absolute;
+  }
+
+  .gmail img{
+    width: 200px;
+    margin-top: 190px;
+    margin-left: 410px;
+    position: absolute;
+  }
+
+  .wa img{
+    width: 200px;
+    margin-top: 190px;
+    margin-left: 710px;
+    position: absolute;
+  }
+
+  .twit img{
+    width: 200px;
+    margin-top: 190px;
+    margin-left: 1010px;
+    position: absolute;
+  }
+
+  .kontak{
+    margin-top: 80px;
+    margin-left: 44%;
+    font-family: the;
+    position: absolute;
+  }
